@@ -5,6 +5,7 @@ export const canReconfigure = (from, to) => {
   const isSameLength = from.length === to.length;
   if (!isSameLength) return false;
 
+  
   const hasSameUniqueLetters = new Set(from).size === new Set(to).size;
   if (!hasSameUniqueLetters) return false;
 

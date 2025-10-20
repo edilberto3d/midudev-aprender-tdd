@@ -14,6 +14,7 @@ export const Calculator = () => {
   return (
     <div>
       <h1>Calculator</h1>
+      
       <input value={value} readOnly />
       <div role="grid">
         {rows.map((row, idx) => (

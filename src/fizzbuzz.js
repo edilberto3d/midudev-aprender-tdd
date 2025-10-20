@@ -5,6 +5,7 @@ export const fizzbuzz = (number) => {
   if (Number.isNaN(number))
     throw new Error("parameter provided must be a number");
 
+  
   const multiplies = {
     3: "Fizz",
     5: "Buzz",
